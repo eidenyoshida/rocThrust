@@ -106,7 +106,7 @@ fi
 #
 
 # Set compiler
-compiler="hcc"
+compiler="hipcc"
 if [[ "${build_hip_clang}" == true ]]; then
     compiler="hipcc"
 fi
